@@ -1,0 +1,43 @@
+.sobre-web-desing {
+  justify-content: space-between;
+  align-items: center;
+
+  article {
+    width: 300px;
+
+    h1 {
+      font-size: $font-h1;
+      line-height: 90%;
+      font-weight: 400;
+      color: $color-secundaria;
+    }
+
+    h2,
+    p {
+      color: $color-primaria;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: $font-h2;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 200%;
+    }
+
+    p {
+      margin: 10px 0 40px;
+    }
+
+    figcaption {
+      width: 100%;
+      margin: 30px 0 0 0;
+    }
+  }
+
+  figcaption {
+    img {
+      width: 700px;
+    }
+  }
+}
